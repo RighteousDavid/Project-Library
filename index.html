@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="script" href="index.js" />
     <title>Document</title>
   </head>
   <body>
@@ -13,6 +12,38 @@
         <h1>Project: Library</h1>
         <h2>A project from the Odin Project: Javascript Course</h2>
       </div>
+
+      <div id="LibraryContainer"></div>
+
+      <div class="container">
+        <button id="addBookBtn">Add a book to library</button>
+        <form id="addBookForm" class="text-center">
+          <div>
+            <label for="title">title</label>
+            <br />
+            <input type="text" name="title" id="title" />
+          </div>
+          <div>
+            <label for="author">author</label>
+            <br />
+            <input type="text" name="author" id="author" />
+          </div>
+          <div>
+            <label for="pages">pages</label>
+            <br />
+            <input type="number" name="pages" id="pages" />
+          </div>
+          <div>
+            <label for="read">read</label>
+            <br />
+            <input type="text" name="read" id="read" />
+          </div>
+
+          <button>cancel</button>
+          <button>add</button>
+        </form>
+      </div>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
